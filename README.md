@@ -1,1 +1,5 @@
-# discord-price-checker
+# Overview
+A web-scraping price-checking Discord bot, for Ebay listings (and maybe others in the future as well). Given a condition and a list of search terms / keywords, it is able to search for listings automatically with those specifications, and output the cheapest one (including shipping costs) in a Discord channel through a Discord bot in an easy to understand summarization. The bot also has commands for an autosearch function, where a search will be repeated every hour in order to remain updated, and a blacklist function, where listings can be added to a blacklist in order to be ignored in future searches. A help command is available ("-help") in order to refer to the available commands.
+
+# Usage with Discord
+In order to function properly, the usage of a Discord bot is necessary. The first two constants defined in the code, "BOT_TOKEN" and "BOT_CHANNEL", are to be set to be equal to the token of your Discord bot and the ID of the channel it should send messages to, respectively. Setting up a Discord bot is relatively simple provided you already have your own Discord account. A guide such as this one can be followed: https://gist.github.com/guarzo/a4d238b932b6a168ad1c5f0375c4a561
