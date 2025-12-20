@@ -7,10 +7,10 @@ import os
 import time
 import asyncio
 
-DISABLE_HEADLESS = True
-
 BOT_TOKEN = ""
 BOT_CHANNEL = 0
+
+DISABLE_HEADLESS = False
 
 # create client
 intents = discord.Intents.default()
@@ -360,3 +360,4 @@ async def auto_search():
             await asyncio.sleep(60)
             
 client.run(BOT_TOKEN)
+
